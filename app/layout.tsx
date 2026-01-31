@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://easydailytools.com",
   },
+  other: {
+    "google-adsense-account": "ca-pub-5215981522663926",
+  },
 };
 
 export default function RootLayout({
@@ -32,7 +35,7 @@ export default function RootLayout({
         {/* Google AdSense Script */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_CLIENT_ID_HERE"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5215981522663926"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />

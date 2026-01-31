@@ -30,7 +30,7 @@ export const AdSenseAd: React.FC<AdSenseAdProps> = ({ slot, format = 'auto' }) =
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+        data-ad-client="ca-pub-5215981522663926"
         data-ad-slot={slot === 'homepage-top' ? '1234567890' : '0987654321'} // Replace with actual Slot IDs
         data-ad-format={format}
         data-full-width-responsive="true"
